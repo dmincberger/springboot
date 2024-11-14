@@ -9,7 +9,6 @@ import java.util.List;
 public interface FileService {
 
 
-
     public void init();
     public void save(MultipartFile file);
     public Resource download(String filename);
